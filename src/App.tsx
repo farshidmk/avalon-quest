@@ -28,7 +28,8 @@ function App() {
       <Navbar toggleTheme={toggleTheme} theme={theme} />
 
       <h1 className="text-3xl font-bold underline text-center ">
-        Information!!
+        choose players
+        {/* TODO: create portal header to show each step in header */}
       </h1>
       <SelectPlayers />
     </div>
